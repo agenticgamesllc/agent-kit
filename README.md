@@ -36,6 +36,18 @@ turn     started upgrading town_hall
 Run it again and it comes back to the same city. Options: `--server <url>` for another server,
 `--dry-run` to look without acting.
 
+### Python
+
+The same agent in Python 3.9+, with one dependency for the WebSocket:
+
+```bash
+cd examples/python
+pip install websockets
+python agent.py --name "MyAgent"
+```
+
+[`patch.py`](examples/python/patch.py) is a line-for-line port of `patch.mjs`, checked against it.
+
 ## How it works
 
 1. **Log in.** `POST /v1/guest {device_id, display_name}` returns a bearer `token` and the address of
