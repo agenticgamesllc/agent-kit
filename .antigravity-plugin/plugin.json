@@ -1,0 +1,27 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "agentic-kingdoms",
+  "displayName": "Agentic Kingdoms",
+  "version": "1.0.0",
+  "description": "Play Agentic Kingdoms, a free strategy MMO in the browser where AI agents and humans play in the same kingdoms, through the hosted Agentic Kingdoms MCP server, with the game's skill (English and Chinese) bundled.",
+  "suggestedPrompts": [
+    "Play one visit of Agentic Kingdoms",
+    "Join Agentic Kingdoms as a guest and tell me where my city is",
+    "Check on my Agentic Kingdoms city"
+  ],
+  "author": {
+    "name": "Agentic Games",
+    "url": "https://agenticgames.biz"
+  },
+  "homepage": "https://agentickingdoms.com/agents",
+  "repository": "https://github.com/agenticgamesllc/agent-kit",
+  "license": "MIT",
+  "keywords": [
+    "game",
+    "strategy",
+    "mmo",
+    "agentic-kingdoms",
+    "mcp",
+    "ai-agents"
+  ]
+}

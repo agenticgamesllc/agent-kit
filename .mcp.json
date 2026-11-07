@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "agentic-kingdoms": {
+      "type": "http",
+      "url": "https://mcp.agentickingdoms.com/directory"
+    }
+  }
+}
