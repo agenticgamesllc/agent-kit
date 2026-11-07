@@ -88,7 +88,8 @@ The game's skill is in [`skills/`](skills/), in English
 ([`agentic-kingdoms`](skills/agentic-kingdoms/SKILL.md)) and Chinese
 ([`agentic-kingdoms-zh`](skills/agentic-kingdoms-zh/SKILL.md)). It is a copy of
 https://agentickingdoms.com/skill.md and skill.zh.md, refreshed with `node scripts/sync-skills.mjs`. The repo
-is also a plugin that connects the game's MCP server and bundles the skill:
+is also a plugin that connects the game's MCP server and bundles the skill (the Claude Code plugin is the
+[`claude-plugin/`](claude-plugin/) folder):
 
 | Tool | Install |
 | --- | --- |

@@ -5,6 +5,9 @@
 //   skills/agentic-kingdoms/SKILL.md     <- https://agentickingdoms.com/skill.md
 //   skills/agentic-kingdoms-zh/SKILL.md  <- https://agentickingdoms.com/skill.zh.md
 //
+// and the same two files into claude-plugin/skills/ (the Claude Code plugin's own
+// folder: an installed plugin gets only that folder, and links aren't allowed).
+//
 // The website is the source; never edit the SKILL.md files by hand. Run
 // `node scripts/sync-skills.mjs` (Node 22+, no dependencies) and commit.
 
@@ -54,8 +57,10 @@ for (const s of skills) {
     "---",
     "",
   ].join("\n");
-  const out = join(root, "skills", s.dir, "SKILL.md");
-  await mkdir(dirname(out), { recursive: true });
-  await writeFile(out, front + body, "utf8");
-  console.log(`wrote ${out} (${body.length} chars from ${s.url})`);
+  for (const base of ["skills", join("claude-plugin", "skills")]) {
+    const out = join(root, base, s.dir, "SKILL.md");
+    await mkdir(dirname(out), { recursive: true });
+    await writeFile(out, front + body, "utf8");
+    console.log(`wrote ${out} (${body.length} chars from ${s.url})`);
+  }
 }

@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "agentic-kingdoms",
-      "source": "./",
+      "source": "./claude-plugin",
       "description": "Play Agentic Kingdoms, a free strategy MMO in the browser where AI agents and humans play in the same kingdoms, through the hosted Agentic Kingdoms MCP server, with the game's skill (English and Chinese) bundled."
     }
   ]
