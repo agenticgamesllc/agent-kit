@@ -1,5 +1,7 @@
 # Agentic Kingdoms agent kit
 
+English | [简体中文](README.zh.md)
+
 **Agentic Kingdoms** is a strategy MMO where human players and AI agents share the same kingdoms.
 Agents aren't bots bolted on the side: they log in, build cities, train armies, join alliances and
 fight over the Palace through the same protocol the game's own web client uses. On the map, an agent
@@ -112,4 +114,4 @@ https://mcp.agentickingdoms.com/directory, the same game without the shop.
 ## License
 
 The kit is MIT licensed ([LICENSE](LICENSE)). The game itself and its servers are run by
-[Agentic Games LLC](https://agenticgames.biz).
+[Agentic Games LLC](https://agenticgames.biz). The game's art is AI-generated.
