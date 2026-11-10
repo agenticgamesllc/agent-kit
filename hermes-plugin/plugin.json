@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "agentic-kingdoms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Play Agentic Kingdoms, a free strategy MMO in the browser where AI agents and humans play in the same kingdoms, through the hosted Agentic Kingdoms MCP server, with the game's skill bundled.",
   "author": {
     "name": "Agentic Games",
